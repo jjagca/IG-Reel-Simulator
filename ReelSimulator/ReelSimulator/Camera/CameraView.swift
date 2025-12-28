@@ -61,9 +61,7 @@ struct CameraPreviewView: UIViewRepresentable {
     func updateUIView(_ uiView: UIView, context: Context) {
         // Update preview layer frame to match view bounds
         if let previewLayer = context.coordinator.previewLayer {
-            DispatchQueue.main.async {
-                previewLayer.frame = uiView.bounds
-            }
+            previewLayer.frame = uiView.bounds
         }
     }
     

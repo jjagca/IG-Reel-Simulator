@@ -30,7 +30,7 @@ struct ReelOverlayView: View {
                     
                     // Share button
                     ActionButton(
-                        icon: "paperplane",
+                        icon: "paperplane.fill",
                         label: "Share"
                     )
                     
