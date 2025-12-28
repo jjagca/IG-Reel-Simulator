@@ -1,0 +1,127 @@
+═══════════════════════════════════════════════════════════
+                    REEL SIMULATOR
+                iPhone App UI Mockup
+═══════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════════════╗
+║                                                       ║
+║  ←                                          📷       ║
+║                                                       ║
+║  ┌─────────────────────────────────────────────┐     ║
+║  │                                             │     ║
+║  │                                             │     ║
+║  │                                             │     ║
+║  │                                             │     ║
+║  │          LIVE CAMERA FEED                   │     ║
+║  │      (Back camera - 1080p HD)               │     ║
+║  │                                             │     ║
+║  │       Real-time preview shows               │     ║
+║  │       whatever the camera sees              │     ║
+║  │                                             │◉    ║
+║  │                                          ❤️ │    ║
+║  │                                        245K │    ║
+║  │                                             │    ║
+║  │                                          💬 │    ║
+║  │                                       1,432 │    ║
+║  │                                             │    ║
+║  │                                          ✈️ │    ║
+║  │                                       Share │    ║
+║  │                                             │    ║
+║  │                                          ⋯  │    ║
+║  │                                             │    ║
+║  │                                          ◉  │    ║
+║  │                                       🎵  │    ║
+║  │  ╭────╮                                    │    ║
+║  │  │ 👤 │ username      ┌────────┐          │    ║
+║  │  ╰────╯               │ Follow │          │    ║
+║  │                       └────────┘          │    ║
+║  │                                            │    ║
+║  │  Caption text goes here describing the    │    ║
+║  │  reel content... #reels #instagram        │    ║
+║  │                                            │    ║
+║  │  🎵  Original Audio - username            │    ║
+║  │                                            │    ║
+║  └────────────────────────────────────────────┘    ║
+║                                                     ║
+╚═══════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════
+
+KEY FEATURES:
+
+✓ CAMERA LAYER (Background)
+  • Live camera preview from back camera
+  • Full-screen coverage with aspect fill
+  • HD quality (1920x1080)
+  
+✓ OVERLAY LAYER (Foreground)
+  • Semi-transparent UI elements
+  • Vector graphics (SF Symbols)
+  • White text with shadows for visibility
+
+✓ RIGHT SIDE ACTIONS
+  ❤️  Like Button (245K likes shown)
+  💬  Comment Button (1,432 comments)
+  ✈️  Share Button
+  ⋯   More Options
+  🎵  Audio Thumbnail (rotating animation)
+
+✓ BOTTOM LEFT INFO
+  👤  Profile Picture (gradient ring)
+  •   Username display
+  •   Follow button (outlined)
+  •   Caption preview (2 lines)
+  •   Audio track information
+
+✓ TOP BAR
+  ←   Back navigation
+  📷  Camera/switch button
+
+═══════════════════════════════════════════════════════════
+
+RESPONSIVE DESIGN:
+
+The UI automatically adapts to different iPhone sizes:
+
+iPhone SE (4.7")     iPhone 14 (6.1")    iPhone 15 Pro Max (6.7")
+┌───────────┐        ┌──────────────┐     ┌────────────────┐
+│ ←      📷│        │ ←         📷│     │ ←           📷│
+│           │        │              │     │                │
+│  CAMERA   │        │   CAMERA     │     │    CAMERA      │
+│         ❤️│        │           ❤️ │     │             ❤️ │
+│         💬│        │           💬 │     │             💬 │
+│         ✈️│        │           ✈️ │     │             ✈️ │
+│         🎵│        │           🎵 │     │             🎵 │
+│👤 user    │        │👤 username   │     │👤 username     │
+└───────────┘        └──────────────┘     └────────────────┘
+
+═══════════════════════════════════════════════════════════
+
+COLOR PALETTE:
+
+PRIMARY:
+• UI Elements: White (#FFFFFF)
+• Text: White with shadow
+• Background: Live camera (full color)
+
+ACCENTS:
+• Gradient 1: Purple → Pink → Orange (profile ring)
+• Gradient 2: Purple → Pink (audio thumbnail)
+• Semi-transparent: Black @ 20% opacity (button backgrounds)
+
+SHADOWS:
+• All text: Black shadow for readability
+• All icons: Subtle drop shadow for depth
+
+═══════════════════════════════════════════════════════════
+
+TECHNICAL DETAILS:
+
+Framework:     SwiftUI (iOS 15.0+)
+Camera:        AVFoundation
+Icons:         SF Symbols (native iOS)
+Layout:        GeometryReader (responsive)
+Architecture:  MVVM pattern
+Language:      Swift 5.0
+
+═══════════════════════════════════════════════════════════
